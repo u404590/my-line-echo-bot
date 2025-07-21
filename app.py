@@ -8,8 +8,8 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage
 app = Flask(__name__)
 
 # >>> 請將這些值替換成你在 LINE Developers Console 取得的實際資訊 <<<
-LINE_CHANNEL_ACCESS_TOKEN = 'YOUR_CHANNEL_ACCESS_TOKEN'
-LINE_CHANNEL_SECRET = 'YOUR_CHANNEL_SECRET'
+LINE_CHANNEL_ACCESS_TOKEN = 'Uf70cd3dd82b544766ece9f89b2022bbd'
+LINE_CHANNEL_SECRET = '82a15d374fd989ad0ab01afb839d4bed'
 # >>> 替換結束 <<<
 
 line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
