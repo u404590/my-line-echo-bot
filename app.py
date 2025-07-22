@@ -47,7 +47,7 @@ def handle_message(event):
         TextSendMessage(text=user_message)
     )
 
-# 從環境變數中讀取 Port，Heroku 會提供一個 Port
+# 從環境變數中讀取 Port，Replit 會提供一個 Port
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 5000)) # 預設使用 5000，但 Heroku 會設定自己的 Port
-    app.run(host='0.0.0.0', port=port) # 監聽所有 IP，讓 Heroku 能存取
+    port = int(os.environ.get('PORT', 5000)) # 預設使用 5000，但 Replit 會設定自己的 Port
+    app.run(host='0.0.0.0', port=port) # 監聽所有 IP，讓 Replit 能存取
