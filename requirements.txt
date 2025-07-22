@@ -1,0 +1,3 @@
+Flask
+line-bot-sdk
+gunicorn # Heroku 運行 Python Web 應用的推薦工具
